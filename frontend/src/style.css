@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;500;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0e0e0f;
+  --bg-surface: #161618;
+  --bg-card: #1c1c1f;
+  --bg-hover: #222226;
+  --border: rgba(255,255,255,0.07);
+  --border-strong: rgba(255,255,255,0.13);
+  --text: #e8e8e6;
+  --text-muted: #7a7a78;
+  --text-dim: #4a4a48;
+  --accent: #d4ff5c;
+  --accent-dim: rgba(212,255,92,0.12);
+  --accent-text: #0e0e0f;
+  --success: #3ecf8e;
+  --success-dim: rgba(62,207,142,0.10);
+  --warning: #f5a623;
+  --warning-dim: rgba(245,166,35,0.10);
+  --info: #4da6ff;
+  --info-dim: rgba(77,166,255,0.10);
+  --danger: #ff6b6b;
+  --danger-dim: rgba(255,107,107,0.10);
+  --radius: 6px;
+  --radius-lg: 10px;
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+html { font-size: 16px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-display);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app { min-height: 100vh; }
+
+button { cursor: pointer; font-family: var(--font-display); }
+a { text-decoration: none; color: inherit; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 2px; }
