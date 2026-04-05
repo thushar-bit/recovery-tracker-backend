@@ -65,7 +65,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted  } from 'vue'
 import { PHASES } from '../data'
 import { fetchRoadmap, toggleRoadmapTopic, fetchRoadmapStats } from '../api'
 
